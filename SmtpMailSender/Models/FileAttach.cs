@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmtpMailSender.Models
 {
-    internal class FileAttach
+    public class FileAttach
     {
         public byte[] Source { get; set; }
         public string FileName { get; set; } = String.Empty;
